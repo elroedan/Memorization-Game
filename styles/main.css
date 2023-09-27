@@ -1,0 +1,366 @@
+/* HTML Selectors */
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    font-family: 'Kalam', cursive;
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    min-width: 120px;
+    text-align: right;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:first-child {
+    display: block;
+}
+
+nav ul li {
+    display: none;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #efefef;
+    color: black;
+}
+
+section {
+    text-align: center;
+}
+
+
+/* Class Selectors */
+.active {
+    background-color: white;
+    color: black;
+}
+
+.open li {
+    display: block;
+}
+
+/* ID Selectors */
+#functions {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: darkslategray;
+}
+.container
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background: #0d614b;
+    padding: 40px 60px;
+
+}
+h2 
+{
+  font-size: 3em;
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+
+}
+.reset
+{
+    padding: 15px 20px;
+    color: #0d614b;
+    background: #efefef;
+    border: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+
+
+}
+.reset:focus
+{
+    color: #efefef;
+    background: #0d614b;
+
+}
+
+.game 
+{
+    width: 680px; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+
+}
+
+.item
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background: #efefef;
+    transition: 0.25s;
+
+}
+.item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: black;    
+    transition: 0.25s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+}
+.item.boxOpen
+{
+    transform: rotateY('angle');
+}
+.boxMatch:after,
+.boxOpen:after
+{
+    transform: rotateY(180deg);
+}
+
+/* media queries */
+@media only screen and (min-width: 32.5em) {
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    body {
+        font-family: 'Kalam', cursive;
+    }
+    
+    div {
+        margin: 10px;
+        text-align: center;
+    }
+    
+    footer {
+        background-color: gray;
+        color: white;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    header {
+        margin: auto;
+        text-align: center;
+    }
+    
+    label {
+        display: inline-block;
+        min-width: 120px;
+        text-align: right;
+    }
+    
+    nav {
+        background-color: black;
+        color: white;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li:first-child {
+        display: block;
+    }
+    
+    nav ul li {
+        display: none;
+        list-style: none;
+        margin: 10px;
+    }
+    
+    nav ul li a {
+        color: white;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+    nav ul li a:hover {
+        background-color: #efefef;
+        color: black;
+    }
+    
+    section {
+        text-align: center;
+    }
+    
+    
+    /* Class Selectors */
+    .active {
+        background-color: white;
+        color: black;
+    }
+    
+    .open li {
+        display: block;
+    }
+    
+    /* ID Selectors */
+    #functions {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    body
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: darkslategray;
+    }
+    .container
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        background: #084C61;
+        padding: 40px 60px;
+    
+    }
+    h2 
+    {
+      font-size: 3em;
+      color: aliceblue;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    
+    
+    }
+    .reset
+    {
+        padding: 15px 20px;
+        color: #0d614b;
+        background: #efefef;
+        border: none;
+        font-size: 1.5em;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-weight: 600;
+    
+    
+    }
+    .reset:focus
+    {
+        color: #efefef;
+        background: #0d614b;
+    
+    }
+    
+    .game 
+    {
+        width: 680px; 
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        transform-style: preserve-3d;
+        perspective: 500px;
+    
+    }
+    
+    .item
+    {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3em;
+        background: #efefef;
+        transition: 0.25s;
+    
+    }
+    .item::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: black;
+        
+        transition: 0.25s;
+        transform: rotateY(0deg);
+        backface-visibility: hidden;
+    }
+    .item.boxOpen
+    {
+        transform: rotateY('angle');
+    }
+    .boxMatch:after,
+    .boxOpen:after
+    {
+        transform: rotateY(180deg);
+    }
+}
