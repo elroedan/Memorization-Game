@@ -4,7 +4,6 @@ A Memorization Game
 
 I built this program to make a fun, engaging, and dynamic game. This memory card matching game is a classic and engaging way to test and improve a player's memory and cognitive skills. Players can enjoy the challenge of finding all the matching pairs while trying to complete the game in the shortest time possible.
 
-[Software Demo Video](https://youtu.be/UjhIKEnh1Ng)
 
 # How to Play:
 1) The player starts the game with all cards face down.
@@ -21,6 +20,7 @@ I built this program to make a fun, engaging, and dynamic game. This memory card
 I used HTML for the structure of the site. I used the main CSS
 for the styling and made it. 
 
+[Software Demo Video](https://www.youtube.com/watch?v=Aj8y0BOi4us)
 # Development Environment
 
 * Visual Studio Code

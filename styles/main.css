@@ -7,7 +7,7 @@ article {
 
 body {
     font-family: 'Kalam', cursive;
-}
+} 
 
 div {
     margin: 10px;
@@ -20,41 +20,6 @@ label {
     text-align: right;
 }
 
-nav {
-    background-color: black;
-    color: white;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: space-around;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li:first-child {
-    display: block;
-}
-
-nav ul li {
-    display: none;
-    list-style: none;
-    margin: 10px;
-}
-
-nav ul li a {
-    color: white;
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-}
-nav ul li a:hover {
-    background-color: #efefef;
-    color: black;
-}
-
 section {
     text-align: center;
 }
@@ -64,10 +29,6 @@ section {
 .active {
     background-color: white;
     color: black;
-}
-
-.open li {
-    display: block;
 }
 
 /* ID Selectors */
@@ -96,7 +57,7 @@ body
     flex-direction: column;
     justify-content: center;
     flex-direction: column;
-    background: darkolivegreen;
+    background: black;
     padding: 40px 60px;
 
 }
@@ -208,41 +169,6 @@ label {
     text-align: right;
 }
 
-nav {
-    background-color: black;
-    color: white;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: space-around;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li:first-child {
-    display: block;
-}
-
-nav ul li {
-    display: none;
-    list-style: none;
-    margin: 10px;
-}
-
-nav ul li a {
-    color: white;
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-}
-nav ul li a:hover {
-    background-color: #efefef;
-    color: black;
-}
-
 section {
     text-align: center;
 }
@@ -284,7 +210,7 @@ body
     flex-direction: column;
     justify-content: center;
     flex-direction: column;
-    background: darkolivegreen;
+    background: black;
     padding: 40px 60px;
 
 }
